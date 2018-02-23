@@ -11,9 +11,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-//		auktionshaus();
+		auktionshaus();
 //		verflixteSiebenV1();
-		verflixteSiebenV2();
+//		verflixteSiebenV2();
+//		verflixteSiebenV1_Simulation();
 
 	}
 
@@ -81,6 +82,13 @@ public class Main {
 
 		spieler1.rundeBeenden();
 		// === RUNDE 1: Beendet ===
+
+	}
+
+	private static void verflixteSiebenV1_Simulation() {
+
+		de.NilsReichardt.VerflixteSiebenV1_Simulation.Spielfeld spielfeld = new de.NilsReichardt.VerflixteSiebenV1_Simulation.Spielfeld();
+		spielfeld.spielen();
 
 	}
 
